@@ -6,9 +6,6 @@ branches:
   only:
     - master
 
-install:
- - pip install -r ./requeriments.txt
- 
- script: python3 ./manage.py test 
+script: pip install -r ./requeriments.txt && python3 ./manage.py test 
 
   
