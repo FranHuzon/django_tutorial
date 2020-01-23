@@ -9,7 +9,7 @@ branches:
 install:
  - pip install -r ./requeriments.txt
 
-before_install:
+after_install:
  - python3 ./manage.py test 
 
   
