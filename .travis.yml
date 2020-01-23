@@ -8,8 +8,7 @@ branches:
 
 install:
  - pip install -r ./requeriments.txt
-
-after_install:
- - python3 ./manage.py test 
+ 
+ script: python3 ./manage.py test 
 
   
